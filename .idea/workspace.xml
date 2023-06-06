@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0852d4a-7655-493e-8246-177b356debf9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/run/MainTelaPrincipal.java" afterDir="false" />
+    <list default="true" id="a0852d4a-7655-493e-8246-177b356debf9" name="Changes" comment="Commit teste">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Funcoes/Cadastros/Cadastros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/aluno.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/cidade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/estagiario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/localTreino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/materiais.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/modalidades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/usuario.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Ui/TelaPrincipal.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Ui/TelaPrincipal.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Ui/TelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Ui/TelaPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/conexao/Conectar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/conexao/Conectar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/conexao/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/conexao/Conexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/run/MainTelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/run/MainTelaPrincipal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,26 +44,34 @@
     </option>
   </component>
   <component name="ProjectId" id="2QnriHuopoR6ucw8KOTKQIcgDsj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/55469/OneDrive/Área de Trabalho/1 PERIODO/CLEITON/LOGIN",
+    "last_opened_file_path": "C:/Users/55469/Downloads/InterfaceGrafica",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\55469\OneDrive\Área de Trabalho\1 PERIODO\CLEITON\APLICATIVO_CADASTRO\src\main\java\app\Ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainTelaPrincipal">
     <configuration name="Conectar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.conexao.Conectar" />
       <module name="APLICATIVO_CADASTRO" />
@@ -72,8 +85,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTelaPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.run.MainTelaPrincipal" />
+      <module name="APLICATIVO_CADASTRO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelaPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.Ui.TelaPrincipal" />
+      <module name="APLICATIVO_CADASTRO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.Ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTelaPrincipal" />
+        <item itemvalue="Application.TelaPrincipal" />
         <item itemvalue="Application.Conectar" />
       </list>
     </recent_temporary>
@@ -86,11 +127,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686000317439</updated>
-      <workItem from="1686000318873" duration="4884000" />
+      <workItem from="1686000318873" duration="14627000" />
+      <workItem from="1686018830098" duration="1076000" />
+      <workItem from="1686087201326" duration="7391000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit teste">
+      <created>1686005266865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686005266866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Commit teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit teste" />
   </component>
 </project>
