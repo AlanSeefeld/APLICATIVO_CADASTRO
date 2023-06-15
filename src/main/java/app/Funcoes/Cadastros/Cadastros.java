@@ -1,11 +1,12 @@
 package app.Funcoes.Cadastros;
 
+import app.Ui.CadastroCliente;
 import app.conexao.Conexao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Cadastros {
+public class Cadastros extends CadastroCliente{
 
     public void cadastrarAluno(){
         //Intsncia uma conexão com a classe Conexao
@@ -15,25 +16,47 @@ public class Cadastros {
             con.getConnection();
 
             //VARIAVEIS PESSOA
-            ResultSet idPessoa = con.statement.executeQuery("select max(IDpessoa) from public.\"PESSOA\"");
-            String nome = "";
-            String cpf = "";
-            String rg = "";
-            Integer dataNasc = 0;
+            ResultSet idPessoaResult = con.statement.executeQuery("SELECT MAX(\"IDpessoa\") FROM public.\"PESSOA\"");
+            idPessoaResult.next();
+            int idPessoa = idPessoaResult.getInt(1) + 1;
+            String nome = textNome.getText();
+            String cpf = textCpf.getText();
+            String rg = textRG.getText();
+            String dataNasc = textDataNasc.getText();
+            Integer tipoSexo = comboBoxSexo.getSelectedIndex();
             String sexo = "";
-            Double peso = 0d;
-            Integer idCidade = 0;
-            String endereco = "";
-            String telefone = "";
-            Integer dataInicio = 0;
-            Double altura = 0d;
-            String exame = "";
-            String descPessoa = "";
+            if(tipoSexo == 0){
+                sexo = "M";
+            } else if (tipoSexo == 1) {
+                sexo = "F";
+            }else{
+                sexo = "O";
+            }
+            String pesoText = textPeso.getText();
+            String alturaText = textAltura.getText();
+
+            double peso = 0.0;
+            double altura = 0.0;
+
+            if (!pesoText.isEmpty()) {
+                peso = Double.parseDouble(pesoText);
+            }
+
+            if (!alturaText.isEmpty()) {
+                altura = Double.parseDouble(alturaText);
+            }
+
+
+            Integer idCidade = comboBoxCidade.getSelectedIndex();
+            String endereco = textEndereco.getText();
+            String telefone = textTelefone.getText();
+            String dataInicio = textDataInicio.getText();
+            String exame = textRelatorio.getText();
 
             //CADASTRAR PESSOA
             String query = "INSERT INTO public.\"PESSOA\"(\n" +
-                    "\t\"IDpessoa\", \"Nome\", \"CPF\", \"RG\", \"DTnasc\", \"SEXO\", \"PESO\", \"IDcidade\", \"Endereco\", \"Telefone\", \"DTinicio\", \"Altura\", \"ExameAm\", \"DescPessoa\")\n" +
-                    "\tVALUES ("+idPessoa+","+nome+","+cpf+","+ rg+","+dataNasc+","+ sexo+","+ peso+","+idCidade+","+ endereco+","+ telefone+","+ dataInicio+","+ altura+","+ exame+","+ descPessoa+"); ";
+                    "\"IDpessoa\", \"Nome\", \"CPF\", \"RG\", \"DTnasc\", \"SEXO\", \"PESO\", \"IDcidade\", \"Endereco\", \"Telefone\", \"DTinicio\", \"Altura\", \"ExameAm\")\n" +
+                    "VALUES ("+idPessoa+", '"+nome+"', '"+cpf+"', '"+rg+"', '"+dataNasc+"', '"+sexo+"', "+peso+", "+idCidade+", '"+endereco+"', '"+telefone+"', '"+dataInicio+"', "+altura+", '"+exame+"');";
             ResultSet result = con.statement.executeQuery(query);
             result.next();
 
@@ -46,6 +69,7 @@ public class Cadastros {
                     "\t\"IDusuario\", \"IDpessoa\", \"IDlocal\")\n" +
                     "\tVALUES ("+idUsuario+","+ idPessoa+","+ idLocal+");";
             ResultSet result2 = con.statement.executeQuery(query2);
+            result2.next();
 
         } catch (SQLException e) {
             //Vai exibir os erros caso não de certo para cadastrar

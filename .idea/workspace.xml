@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0852d4a-7655-493e-8246-177b356debf9" name="Changes" comment="Commit teste">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Funcoes/Cadastros/Cadastros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/aluno.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/cidade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/estagiario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/localTreino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/materiais.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/modalidades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/Icones/TelaPrincipal/usuario.png" afterDir="false" />
+    <list default="true" id="a0852d4a-7655-493e-8246-177b356debf9" name="Changes" comment="TA FODA">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Acoes/Abrir/AbrirCadUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/CadastroCliente.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/Ui/CadastroCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Funcoes/Cadastros/Cadastros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Funcoes/Cadastros/Cadastros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Ui/TelaPrincipal.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Ui/TelaPrincipal.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Ui/TelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Ui/TelaPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/run/MainTelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/run/MainTelaPrincipal.java" afterDir="false" />
@@ -57,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/55469/Downloads/InterfaceGrafica",
+    "last_opened_file_path": "C:/Users/55469/OneDrive/Área de Trabalho/1 PERIODO/CLEITON/APLICATIVO_CADASTRO",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,7 +125,13 @@
       <updated>1686000317439</updated>
       <workItem from="1686000318873" duration="14627000" />
       <workItem from="1686018830098" duration="1076000" />
-      <workItem from="1686087201326" duration="7391000" />
+      <workItem from="1686087201326" duration="10100000" />
+      <workItem from="1686097925604" duration="205000" />
+      <workItem from="1686098226657" duration="2002000" />
+      <workItem from="1686612149717" duration="756000" />
+      <workItem from="1686673380242" duration="381000" />
+      <workItem from="1686697159679" duration="5738000" />
+      <workItem from="1686780393484" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="Commit teste">
       <created>1686005266865</created>
@@ -138,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686005266866</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TA FODA">
+      <created>1686094939889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686094939889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit teste" />
+    <MESSAGE value="TA FODA" />
+    <option name="LAST_COMMIT_MESSAGE" value="TA FODA" />
   </component>
 </project>
